@@ -1,0 +1,8 @@
+local composer = require("composer")
+local widget = require("widget")
+local myApp = require( "myapp" )
+local json = require( "json" )  -- Include the Corona JSON library
+local dropdown = require('dropdown')
+local screen = require('screen')
+local scene = composer.newScene()
+
