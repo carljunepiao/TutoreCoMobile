@@ -3,14 +3,15 @@ local widget = require("widget")
 local myApp = require( "myapp" )
 local json = require( "json" )  -- Include the Corona JSON library
 local scene = composer.newScene()
--- stringS
+
+str = stringS
 
 local bg
 local effects
 
 function scene:create(event)
 	local sceneGroup = self.view
-
+	local stringS = "hello"
 	--BACKGROUND
 	local bg = display.newRect( 0, 0, display.contentWidth, display.contentHeight )
 	bg:setFillColor( 0.901961,  0.901961, 0.980392)

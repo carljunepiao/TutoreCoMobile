@@ -1,10 +1,17 @@
 local composer = require("composer")
 local widget = require("widget")
-require("newPanel")
 local myApp = require( "myapp" )
 local json = require( "json" )  -- Include the Corona JSON library
 local dropdown = require('dropdown')
 local screen = require('screen')
+local sub = require("subject")
+
+
+--mao ni ang global variable para ipass inig mopili na ang user
+print(sub.str)
+
+
+require("newPanel")
 
 local scene = composer.newScene()
 
